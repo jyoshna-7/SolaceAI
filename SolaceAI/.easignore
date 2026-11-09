@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+# Git
+.git/
+**/.git/
+
+# Backend - separate server
+backend/
+
+# Build output
+dist/
+build/
+coverage/
+.eas-inspect/
+
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*

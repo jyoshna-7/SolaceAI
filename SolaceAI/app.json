@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SolaceAI",
+    "slug": "SolaceAI",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "defaultChannel": "wellness-reminders",
+          "color": "#315B47"
+        }
+      ]
+    ],
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.jyoshna_kanampalli.SolaceAI"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "f6f2cad1-e2aa-4bcb-8022-7b4b9f39924e"
+      }
+    }
+  }
+}
